@@ -1,0 +1,1 @@
+export {default as menuSlice} from './menuSlice/menuSlice';
