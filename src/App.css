@@ -15,7 +15,7 @@
 [data-theme="light"] {
   --bg-color1: #fff;
   --bg-color2: #f9fafb;
-  --bg-color3: y #e5e7eb;
+  --bg-color3: #e5e7eb;
   --color1: #111827;
   --color2: #4b5563;
 }
@@ -33,6 +33,7 @@ img{
 
 body {
   font-family: "Inter", sans-serif;
+  color: var(--color2);
 }
 
 section#template,
@@ -40,9 +41,6 @@ section.template {
   max-width: 1440px;
   width: 100%;
   margin-inline: auto;
-}
-
-.toggle-switch {
 }
 
 .toggle-switch input[type="checkbox"] {
@@ -93,6 +91,10 @@ section.template {
   opacity: 1;
 }
 
+#project-shadow{
+  box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.04)
+}
+
 
 @media screen and (width <= 1024px) {
   :root {
@@ -110,7 +112,7 @@ section.template {
   }
 
   overflow-y::-webkit-scrollbar{
-    /* display: none; */
+    display: none;
   }
 }
 
