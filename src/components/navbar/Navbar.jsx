@@ -6,6 +6,9 @@ import { useSelector, useDispatch } from "react-redux";
 import { menuSlice } from "../../features/sliceExport";
 import { useMediaQuery, useTheme } from "@mui/material";
 
+const cvLink =
+  "https://drive.google.com/file/d/1dT2zyCG7H7wxrdZWPHuW2amNopN-4fal/view?usp=sharing";
+
 const liStyle = {
   cursor: "pointer",
   fontWeight: "600",
@@ -15,7 +18,6 @@ const liStyle = {
 const Navbar = () => {
   const menuState = useSelector((state) => state.menu.toggle);
   const dispatch = useDispatch();
-
 
   const theme = useTheme();
   const isSmall = useMediaQuery(theme.breakpoints.down("lg"));
@@ -70,12 +72,16 @@ const Navbar = () => {
 
             <div className=" flex flex-col gap-8 pl-0 p-4">
               <div className=" flex justify-between w-full">
-                <p className=" font-semibold md:text-[1.25rem] text-[--color2]">Switch Theme</p>
+                <p className=" font-semibold md:text-[1.25rem] text-[--color2]">
+                  Switch Theme
+                </p>
                 <ToggleSwitch />
               </div>
-              <button className=" py-[0.5rem] md:py-3 text-[1.2rem] bg-[--color1] text-[--bg-color2] rounded-[0.75rem] hover:bg-[--color2] duration-200 ease">
-                Download CV
-              </button>
+              <a href={cvLink}>
+                <button className=" py-[0.5rem] md:py-3 text-[1.2rem] bg-[--color1] text-[--bg-color2] rounded-[0.75rem] hover:bg-[--color2] duration-200 ease">
+                  Download CV
+                </button>
+              </a>
             </div>
           </div>
         </div>
@@ -106,9 +112,11 @@ const Navbar = () => {
 
         <div className=" flex gap-4 items-center">
           <ToggleSwitch />
-          <button className=" py-[0.38rem] px-4 bg-[--color1] text-[--bg-color2] rounded-[0.75rem] hover:bg-[--color2] duration-200 ease">
-            Download CV
-          </button>
+          <a href={cvLink}>
+            <button className=" py-[0.38rem] px-4 bg-[--color1] text-[--bg-color2] rounded-[0.75rem] hover:bg-[--color2] duration-200 ease">
+              Download CV
+            </button>
+          </a>
         </div>
       </div>
     );
