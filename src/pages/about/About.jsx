@@ -8,7 +8,7 @@ const About = () => {
         id="about"
         className="template flex flex-col py-[--py] px-[--px] text-[--color2]"
       >
-        <h1 className=" place-self-center rounded-xl py-[0.25rem] px-[1.25rem] bg-[--bg-color3]">
+        <h1 className=" place-self-center rounded-xl py-[0.25rem] px-[1.25rem] whitespace-nowrap overflow-hidden text-ellipsis max-w-full bg-[--bg-color3]">
           About me
         </h1>
 
