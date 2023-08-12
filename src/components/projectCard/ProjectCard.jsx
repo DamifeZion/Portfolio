@@ -4,9 +4,9 @@ import ProjectTags from "./ProjectTags";
 
 const ProjectCard = ({ img, txtH, txtB, gitLink, liveLink, tags }) => {
   return (
-    <div className="flex flex-col gap-12 mt-12 px-8">
+    <div className="flex flex-col gap-12 mt-12 lg:px-8">
       <div className="flex flex-col lg:flex-row w-full justify-between overflow-hidden lg:h-[400px] rounded-xl">
-        <div className=" p-12 h-full w-full lg:w-1/2 bg-[--bg-color3]">
+        <div className=" p-6 lg:p-12 h-full w-full lg:w-1/2 bg-[--bg-color3]">
           <img
             src={img}
             alt=""
@@ -15,7 +15,7 @@ const ProjectCard = ({ img, txtH, txtB, gitLink, liveLink, tags }) => {
           />
         </div>
 
-        <div className=" flex flex-col p-12 lg:w-1/2 h-full bg-[--bg-color1] gap-6 overflow-hidden">
+        <div className=" flex flex-col p-6 lg:p-12 lg:w-1/2 h-full bg-[--bg-color1] gap-6 overflow-hidden">
           <h1 className=" text-[1.25rem] font-semibold text-ellipsis w-full text-[--color1]">
             {txtH}
           </h1>
