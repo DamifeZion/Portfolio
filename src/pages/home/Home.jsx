@@ -23,11 +23,7 @@ const Home = () => {
           </h1>
 
           <p className=" text-[--color2] break-words">
-            I'm a full stack developer (React.js & Node.js) with a focus on
-            creating (and occasionally designing) exceptional digital
-            experiences that are fast, accessible, visually appealing, and
-            responsive. Even though I have been creating web applications for
-            over 7 years, I still love it as if it was something new.
+            As a passionate and dedicated full stack developer, I bring a fresh perspective and a hunger to learn. With a focus on React.js and Node.js, I'm equipped with the latest skills and knowledge. I'm eager to contribute to your team, deliver exceptional digital experiences, and grow alongside your organization. Let's create something amazing together.
           </p>
 
           <div className=" flex flex-col gap-2 my-12">
