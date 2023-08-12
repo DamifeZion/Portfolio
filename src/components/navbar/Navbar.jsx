@@ -78,7 +78,7 @@ const Navbar = () => {
                 <ToggleSwitch />
               </div>
               <a href={cvLink}>
-                <button className=" py-[0.5rem] md:py-3 text-[1.2rem] bg-[--color1] text-[--bg-color2] rounded-[0.75rem] hover:bg-[--color2] duration-200 ease">
+                <button className=" w-full py-[0.5rem] md:py-3 text-[1.2rem] bg-[--color1] text-[--bg-color2] rounded-[0.75rem] hover:bg-[--color2] duration-200 ease">
                   Download CV
                 </button>
               </a>
