@@ -13,11 +13,9 @@ const liStyle = {
 };
 
 const Navbar = () => {
-  const menuState = useSelector((state) => state.toggle);
+  const menuState = useSelector((state) => state.menu.toggle);
   const dispatch = useDispatch();
 
-  const menu = useRef();
-  const menuRef = menu.current;
 
   const theme = useTheme();
   const isSmall = useMediaQuery(theme.breakpoints.down("lg"));

@@ -1,13 +1,13 @@
 import img from "../../assets/project.jpg";
-import carla from "../../assets/Cara-ecommerce.png";
+import cara from "../../assets/Cara-ecommerce.png";
 import dashboard from "../../assets/dashboard.png";
 import jumia from '../../assets/jumia.png'
 
 export const projectData = [
   {
     id: 0,
-    img: carla,
-    txtH: "Carla Ecommerce",
+    img: cara,
+    txtH: "Cara Ecommerce",
     txtB: "A modern online store selling clothes and accessories. It features a user-friendly interface, a custom shopping cart system. The site is fully responsive and optimized for desktop, tablet, and mobile devices.",
     tag: ["Html", "Css", "Javascript"],
     gitLink: "https://github.com/DamifeZion/Cara-Ecommerce",
