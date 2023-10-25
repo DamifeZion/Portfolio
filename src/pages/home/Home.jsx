@@ -1,5 +1,3 @@
-import React from "react";
-
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import { FiGithub } from "react-icons/fi";
 import { AiOutlineLinkedin } from "react-icons/ai";

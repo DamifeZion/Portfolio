@@ -3,7 +3,9 @@ import html from '../../assets/html.svg'
 import css from '../../assets/css.svg'
 import sass from '../../assets/sass.svg'
 import js from '../../assets/js.svg'
+import ts from '../../assets/typescript.svg'
 import react from '../../assets/react.svg'
+import next from '../../assets/next.webp'
 import redux from '../../assets/redux.svg'
 import nodejs from '../../assets/nodejs.svg'
 import mongodb from '../../assets/mongodb.svg'
@@ -36,41 +38,51 @@ export const skillIcon = [
   },
   {
     id: 4,
-    icon: react,
-    txt: 'React.js',
+    icon: ts,
+    txt: 'Typescript',
   },
   {
     id: 5,
+    icon: react,
+    txt: 'React',
+  },
+  {
+    id: 6,
+    icon: next,
+    txt: 'Next',
+  },
+  {
+    id: 7,
     icon: redux,
     txt: 'Redux',
   },
   {
-    id: 6,
+    id: 8,
     icon: nodejs,
-    txt: 'Node.js',
+    txt: 'Node',
   },
   {
-    id: 7,
+    id: 9,
     icon: mongodb,
     txt: 'MongoDB',
   },
   {
-    id: 8,
+    id: 10,
     icon: expressJs,
-    txt: 'Express.js',
+    txt: 'Express',
   },
   {
-    id: 9,
+    id: 11,
     icon: tailwindcss,
     txt: 'Tailwindcss',
   },
   {
-    id: 10,
+    id: 12,
     icon: materialUi,
     txt: 'MaterialUI',
   },
   {
-    id: 11,
+    id: 13,
     icon: bootstrap,
     txt: 'Bootstrap',
   },

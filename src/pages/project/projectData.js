@@ -1,6 +1,6 @@
-import img from "../../assets/project.jpg";
 import cara from "../../assets/Cara-ecommerce.png";
-import dashboard from "../../assets/dashboard.png";
+import taskflow from "../../assets/taskflow.png";
+import saintstream from '../../assets/saintstream.png'
 import jumia from '../../assets/jumia.png'
 
 export const projectData = [
@@ -15,13 +15,24 @@ export const projectData = [
   },
   {
     id: 1,
-    img: dashboard,
-    txtH: "Dashboard",
-    txtB: "Static site dashboard, featuring responsive design and clean UI. Uses React Icons and MUI Media Query dependencies",
-    tag: ["React", "Scss"],
-    gitLink: "https://github.com/DamifeZion/dashboard",
-    liveLink: "https://dashboard-by-damife-zion.netlify.app/",
+    img: taskflow,
+    txtH: "TaskFlow",
+    txtB: "Taskflow is a full-stack todo application built using the MERN (MongoDB, Express.js, React, Node.js) stack. Manage your tasks efficiently with CRUD functionality, user authentication, and mobile-responsive design. Experience seamless task management with Taskflow.",
+    tag: ["React", "TailwindCSS", "ExpressJS", "NodeJS", "MongoDB"],
+    gitLink: "https://github.com/DamifeZion/mern-todo-app",
+    liveLink: "https://taskflow-by-zion.onrender.com",
   },
+
+  {
+    id: 2,
+    img: saintstream,
+    txtH: "Saint Stream",
+    txtB: "Saint Stream: A powerful MERN video streaming app. Express, MongoDB, React, and Tailwind CSS combine to deliver seamless streaming. Enjoy personalized profiles, secure authentication, and a dynamic user experience.",
+    tag: ["React", "TailwindCSS", "ExpressJS", "NodeJS", "MongoDB"],
+    gitLink: "https://github.com/DamifeZion/mern-todo-app",
+    liveLink: "https://taskflow-by-zion.onrender.com",
+  },
+
   {
     id: 2,
     img: jumia,

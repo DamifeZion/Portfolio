@@ -7,7 +7,7 @@ import { menuSlice } from "../../features/sliceExport";
 import { useMediaQuery, useTheme } from "@mui/material";
 
 const cvLink =
-  "https://drive.google.com/file/d/1dT2zyCG7H7wxrdZWPHuW2amNopN-4fal/view?usp=sharing";
+  "https://drive.google.com/file/d/1n9u-MFhbLmikxKrcMD_bzH63mycH6YOO/view?usp=sharing";
 
 const liStyle = {
   cursor: "pointer",
