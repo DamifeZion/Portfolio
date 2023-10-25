@@ -29,8 +29,8 @@ export const projectData = [
     txtH: "Saint Stream",
     txtB: "Saint Stream: A powerful MERN video streaming app. Express, MongoDB, React, and Tailwind CSS combine to deliver seamless streaming. Enjoy personalized profiles, secure authentication, and a dynamic user experience.",
     tag: ["React", "TailwindCSS", "ExpressJS", "NodeJS", "MongoDB"],
-    gitLink: "https://github.com/DamifeZion/mern-todo-app",
-    liveLink: "https://taskflow-by-zion.onrender.com",
+    gitLink: "https://github.com/DamifeZion/SaintStream",
+    liveLink: "https://saintstream.onrender.com/",
   },
 
   {
